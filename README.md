@@ -2,7 +2,7 @@
 
 This repository is the summer assignment of the Quantum Optics Lab at National Central University (Dep. Physics). This repository contains the codes for the numerical solution of the Schrödinger equation using the finite element method. The codes are written in Julia and are based on the finite element method.
 
-
+## Finite Element Method
 For the time independent Schrödinger equation :
 
 $$\hat{H}\ket{\Psi} = E\ket{\Psi}$$
@@ -55,11 +55,38 @@ $$\hat{T} = \frac{\hat{p}\cdot\hat{p}}{2m} = \frac{-\hbar^2}{2m}\frac{\partial}{
 
 $$\rightarrow \hat{T} = \frac{-\hbar^2}{2m \Delta{x}^2}
 \begin{bmatrix}
--2 & 1 & 0 &\cdots & 0 \\
+-2 & 1 & \cdots &\cdots & 0 \\
 1 & -2 & 1 & \ddots & \vdots\\
-0 & 1 & -2 & 1  & 0\\
+\vdots & 1 & -2 & 1  & \vdots\\
 \vdots &\ddots & 1 & -2 & 1 \\
-0 & \cdots &0 & 1 & -2\\
+0 & \cdots &\cdots & 1 & -2\\
 \end{bmatrix}
 \\
 $$
+
+Also, the potential operator $\hat{V}$ can be descretization and expressed as a matrix.
+
+For a potential operator $\hat{V}$, we have :
+$$\rightarrow \hat{V} = 
+\begin{bmatrix}
+V(x_1) & \cdots & \cdots &\cdots & 0 \\
+\vdots & V(x_2) & \ddots & \ddots & \vdots\\
+\vdots & \ddots & V(x_3) & \ddots  & \vdots\\
+\vdots &\ddots & \ddots & V(x_4) & \vdots \\
+0 & \cdots &\cdots & \cdots & V(x_5)\\
+\end{bmatrix}
+\\
+$$
+
+With these operators we can construct the matrix form of Hermition operator $\hat{H}$.
+
+$$\hat{H} = \hat{V}+\hat{T}$$
+
+After construc the matrix form of Hermition operator $\hat{H}$, we can solve the eigenvalue problem.
+
+$$\hat{H}\ket{\Psi} = E\ket{\Psi}$$
+
+## FEM with Non-uniform mass system (1-D)
+
+For the non-uniform mass system, we have :
+$$m\rightarrow{m(x)}$$
