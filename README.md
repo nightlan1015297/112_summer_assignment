@@ -90,3 +90,5 @@ $$\hat{H}\ket{\Psi} = E\ket{\Psi}$$
 
 For the non-uniform mass system, we have :
 $$m\rightarrow{m(x)}$$
+
+We have new form of schrodinger equation :
