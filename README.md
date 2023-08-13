@@ -97,3 +97,13 @@ We have new form of schrodinger equation :
 ## Presentation link
 
 - [0801_progress_report](https://nightlan1015297.github.io/112_summer_assignment/slides/0801_pogress_reports_Raw.html)
+- [0814_progress_report](https://nightlan1015297.github.io/112_summer_assignment/slides/0814_pogress_reports_Raw.html)
+
+## Simulation results
+- 2-D Harmonic oscillator potential
+    - [ground state](https://nightlan1015297.github.io/112_summer_assignment/result/2-d_harmonic_oscillator_potential/py-no0state.html)
+    - [1st state](https://nightlan1015297.github.io/112_summer_assignment/result/2-d_harmonic_oscillator_potential/py-no1state.html)
+    - [2nd state](https://nightlan1015297.github.io/112_summer_assignment/result/2-d_harmonic_oscillator_potential/py-no2state.html)
+    - [3rd state](https://nightlan1015297.github.io/112_summer_assignment/result/2-d_harmonic_oscillator_potential/py-no3state.html)
+    - [4th state](https://nightlan1015297.github.io/112_summer_assignment/result/2-d_harmonic_oscillator_potential/py-no4state.html)
+    - [5th state](https://nightlan1015297.github.io/112_summer_assignment/result/2-d_harmonic_oscillator_potential/py-no5state.html)
