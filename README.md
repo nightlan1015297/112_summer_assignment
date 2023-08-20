@@ -98,6 +98,7 @@ We have new form of schrodinger equation :
 
 - [0801_progress_report](https://nightlan1015297.github.io/112_summer_assignment/slides/0801_pogress_reports_Raw.html)
 - [0814_progress_report](https://nightlan1015297.github.io/112_summer_assignment/slides/0814_pogress_reports_Raw.html)
+- [0821_progress_report](https://nightlan1015297.github.io/112_summer_assignment/slides/0821_pogress_reports_Raw)
 
 ## Simulation results
 - 2-D Harmonic oscillator potential
